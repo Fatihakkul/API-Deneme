@@ -16,8 +16,8 @@ const User = require('./model/user')
 
 const app = express();
 
-const authRoute = require('./routes/auth/auth')
-const userRoute = require('./routes/user/user')
+const authRoute = require('./route/auth/auth')
+const userRoute = require('./route/user/user')
 
 
 
